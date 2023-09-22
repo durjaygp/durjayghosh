@@ -23,7 +23,4 @@ class homepage extends CI_Controller {
 		$this->load->view('index');
 	}
 
-	public function hello(){
-		$this->load->view('test');
-	}
 }
